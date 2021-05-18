@@ -1,14 +1,12 @@
 
 import './App.css';
+import AdminPanel from './AdminPanel';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <h1>welcome to my react app</h1>
-      </header>
-    </div>
+    <div><AdminPanel/></div>
+   
   );
 }
 
